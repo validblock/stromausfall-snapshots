@@ -1,3 +1,3 @@
 # Stromausfall Snapshots
 
-Daily screenshots of https://stoerungsauskunft.de/stromausfall
+Daily screenshot of https://stoerungsauskunft.de/stromausfall

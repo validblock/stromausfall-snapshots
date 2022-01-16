@@ -1,0 +1,1 @@
+# stromausfall-snapshots

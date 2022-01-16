@@ -1,0 +1,16 @@
+{
+  "name": "stromausfall-snapshots",
+  "description": "Snapshots of Stromausfall",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "pageres": "^6.2.4"
+  },
+  "engines": {
+    "node": ">=14"
+  }
+}

@@ -3,6 +3,7 @@ const Pageres = require('pageres');
 (async () => {
     await new Pageres({
         delay: 20,
+        incrementalName: true,
         hide: ['.welcome', '.menu', '.feature', '#bottombuttons'],
         darkMode: true,
         filename: '<%= date %>'

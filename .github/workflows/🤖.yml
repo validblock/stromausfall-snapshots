@@ -24,11 +24,6 @@ jobs:
         
       - name: Yarn Start
         run: yarn start
-        
-      - name: Compress Images
-        uses: calibreapp/image-actions@main
-        with:
-          githubToken: ${{ secrets.GITHUB_TOKEN }}
       
       - name: Auto Commit
         uses: stefanzweifel/git-auto-commit-action@v4

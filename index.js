@@ -28,7 +28,8 @@ const normalizedFileName = () => {
         delay: 20,
         hide: ['.welcome', '.menu', '.feature', '#bottombuttons'],
         darkMode: true,
-        filename: normalizedFileName()
+        filename: normalizedFileName(),
+        cookies: ['welcomeViewed=1']
     })
         .src('https://xn--strungsauskunft-9sb.de/stromausfall', ['1024x1280'])
         .dest(filePath)

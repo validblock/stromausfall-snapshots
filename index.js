@@ -26,7 +26,7 @@ const normalizedFileName = () => {
 
     await new Pageres({
         delay: 20,
-        hide: ['.welcome', '.menu', '.feature', '#bottombuttons'],
+        hide: ['.welcome', '.menu', '.feature', '#bottombuttons', '#menu_icon', 'app-search', 'app-new-power-outage'],
         darkMode: true,
         filename: normalizedFileName(),
         cookies: ['welcomeViewed=1']
